@@ -1,39 +1,36 @@
-### Hello world! ###👋
+### Hello world! ###👋 Ana Rubélia aqui ;)
 
-:memo: Tenho mais de 5 anos de experiência em atividades de discovery, coleta e análise de dados, 
+⚡ Tenho mais de 5 anos de experiência em atividades de discovery, coleta e análise de dados, 
 levantamento de requisitos de negócios, usabilidade e design UX/UI. 
+Minha experiência diversificada em áreas como RH, transporte, gestão de recursos hídricos e sistemas de pedágio 
+me proporciona habilidades para me adaptar rapidamente a diversos contextos.
 
-⚡ Minha experiência diversificada em áreas como RH, transporte, gestão de recursos hídricos e sistemas de pedágio 
-me proporcionou habilidades para me adaptar rapidamente a diversos contextos.
+:floppy_disk: Sou mestre em Engenharia de Software, graduada em Sistemas de Informação e
+Especialista em Design UX/UI.
 
-:floppy_disk: Sou mestre em Engenharia de Software pelo ITA, graduada em Sistemas de Informação pela FEPI e
-Especialita em Design UX/UI.
+Tenho prática na condução de cerimônias ágeis, como Planning, Daily e Retro, além de 
+criar histórias, tasks, spikes, bugs, épicos e sprints, priorizando tarefas 
+com base em dados e na descoberta do produto.
+💬 Além disso, minha habilidade de comunicação assertiva com usuários/stakeholders me permite
+entender profundamente suas necessidades. 
 
-💬 Possuo experiência na condução de cerimônias ágeis, como Planning, Daily e Retro, além de criar histórias, 
-tasks, spikes, bugs, épicos e sprints, priorizando tarefas com base em dados e na descoberta do produto.
-
-✨ Além disso, minha habilidade de comunicação assertiva com usuários/stakeholders me permite
-entender profundamente as necessidades dos clientes. 
-
-👯 Primo por atender as necessidades dos usuários, escolhendo trabalhar com técnicas de 
-UX Research, UX/UI Design, UX Writing e aplicando testes de aceitação de produtos, 
+✨ Foco em atender as necessidades dos usuários, por isso uso técnicas de 
+UX Research, UX/UI Design, UX Writing e aplico testes de usabilidade, 
 além de alinhar frameworks, métodos e ferramentas da Engenharia de Software.
-
-✨ Meu conhecimento em usabilidade e design UX/UI garante a criação de interfaces intuitivas e 
+Além disso, meu conhecimento em usabilidade e design UX/UI garante a criação de interfaces intuitivas e 
 uma arquitetura da informação eficaz para o produto.
-:heavy_exclamation_mark: Além disso, obtive redução no tempo de desenvolvimento ao aplicar testes de usabilidade na fase de prototipação, 
-o que permitiu corrigir e melhorar a interação e a navegabilidade do produto desde as etapas iniciais.
+Prova disso é a redução no tempo de desenvolvimento que obtenho ao aplicar testes de usabilidade em protótipos navegáveis, 
+permitindo a correção e melhoria da interação/navegação do produto ainda nas etapas iniciais.
 
 ⚡ Recentemente, atuei do discovery até a entrega nos projetos de Segurança de Barragens e 
-de Uso de Energia Elétrica na Irrigação, capturando com precisão as necessidades dos usuários/stakeholders e 
-validando as regras de negócio para guiar o time, 
-recebendo elogios em ambos pela melhoria na experiência do usuário.
+de Uso de Energia Elétrica na Irrigação, capturando com precisão necessidades de usuários/stakeholders e 
+validando regras de negócio para guiar o time, recebendo elogios em ambos pela melhoria na experiência do usuário.
 
-:eyes: Adicionalmente, tenho mais de 15 anos de experiência como professora, e 
-tenho expertise em disciplinas como Interação Humano-Computador, Banco de Dados, 
+:eyes: Também tenho mais de 15 anos de experiência como professora e 
+possuo expertise em disciplinas como Interação Humano-Computador, Banco de Dados, 
 Algoritmos e Estruturas de Dados, entre outras, estando assim hábil para dar treinamentos.
 
-🎯 Por fim, sou colaborativa, organizada, proativa, com forte raciocínio lógico e senso analítico. 
+🎯 Por fim, sou colaborativa, organizada, com forte raciocínio lógico e senso analítico. 
 
 :checkered_flag: Posso atuar como: 
 Analista de Requisitos | Analista de Negócios | Analista Funcional
@@ -43,8 +40,8 @@ Arquiteta da Informação | Especialista em Testes de Usabilidade
 
 📫 Vamos trocar uma ideia?
 rubelia.resende@gmail.com
-:white_check_mark: (35) 98866-1226
-:heavy_check_mark: https://www.linkedin.com/in/ana-rubelia-resende
+(35) 98866-1226
+https://www.linkedin.com/in/ana-rubelia-resende
 
 :tropical_drink: Ahhh e fora do trabalho, sou esposa e mãe de 2 moças maravilhosas e 
 no meu tempo livre gosto de artesanato, praticar acrobacias com bambolê, patinar, 
