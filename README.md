@@ -45,3 +45,7 @@ Arquiteta da Informação | Especialista em Testes de Usabilidade
 rubelia.resende@gmail.com
 :white_check_mark: (35) 98866-1226
 :heavy_check_mark: https://www.linkedin.com/in/ana-rubelia-resende
+
+tropical_drink: Ahhh e fora do trabalho, sou esposa e mãe de 2 moças maravilhosas e 
+no meu tempo livre gosto de artesanato, praticar acrobacias com bambolê, patinar, 
+fazer palavras cruzadas e assistir séries.
