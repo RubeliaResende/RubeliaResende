@@ -1,6 +1,6 @@
 ### Hello world! ###👋
 
-Tenho mais de 5 anos de experiência em atividades de discovery, coleta e análise de dados, 
+:memo: Tenho mais de 5 anos de experiência em atividades de discovery, coleta e análise de dados, 
 levantamento de requisitos de negócios, usabilidade e design UX/UI. 
 
 ⚡ Minha experiência diversificada em áreas como RH, transporte, gestão de recursos hídricos e sistemas de pedágio 
