@@ -6,7 +6,7 @@ levantamento de requisitos de negócios, usabilidade e design UX/UI.
 ⚡ Minha experiência diversificada em áreas como RH, transporte, gestão de recursos hídricos e sistemas de pedágio 
 me proporcionou habilidades para me adaptar rapidamente a diversos contextos.
 
-Sou mestre em Engenharia de Software pelo ITA, graduada em Sistemas de Informação pela FEPI e
+:floppy_disk: Sou mestre em Engenharia de Software pelo ITA, graduada em Sistemas de Informação pela FEPI e
 Especialita em Design UX/UI.
 
 💬 Possuo experiência na condução de cerimônias ágeis, como Planning, Daily e Retro, além de criar histórias, 
@@ -29,6 +29,14 @@ validando as regras de negócio para guiar o time,
 recebendo elogios em ambos pela melhoria na experiência do usuário.
 
 :eyes: Adicionalmente, tenho mais de 15 anos de experiência como professora, tenho expertise em disciplinas como Interação Humano-Computador, Banco de Dados, Algoritmos e Estruturas de Dados, entre outras, estando assim hábil para dar treinamentos.
+
+🎯 Por fim, sou colaborativa, organizada, proativa, com forte raciocínio lógico e senso analítico. 
+
+:checkered_flag: Posso atuar como: 
+Analista de Requisitos | Analista de Negócios | Analista Funcional
+Product Manager | Product Owner | PM/PO
+UX/UI Designer | UX Writer | UX Researcher | UX Lead
+Arquiteta da Informação | Especialista em Testes de Usabilidade
 
 📫 Vamos trocar uma ideia?
 (35) 98866-1226
