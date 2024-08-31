@@ -1,0 +1,159 @@
+Detalhamento do Escopo para anova funcionalidade no CRM
+1.	Introdução
+Este documento tem como objetivo detalhar o escopo para o desenvolvimento de uma nova funcionalidade para o CRM. A nova funcionalidade a ser desenvolvida visa:
+1.	Automatizar o processo de acompanhamento de vendas, incluindo registro de interações;
+2.	Possibilitar a definição de lembretes para follow-ups, com possibilidade de personalização;
+3.	Gerar relatórios de progresso de vendas, personalizando segundo preferência do usuário;
+4.	Oferecer integração com o sistema de e-mail existente para envio de notificações; e 
+5.	Garantir que as interações sejam armazenadas de maneira segura e acessível para consulta futura. 
+
+*Obs: Neste teste apresento o “fluxo detalhado” apenas de alguns RN e RNF, limitando esta apresentação.
+________________________________________
+2.	Requisitos Funcionais e Não Funcionais
+RF1: Automatizar o Processo de Acompanhamento de Vendas
+O sistema deve permitir o acompanhamento automatizado de vendas, incluindo o registro de todas as interações com os clientes, como chamadas telefônicas, e-mails, reuniões e outras formas de comunicação. Essas interações devem ser organizadas cronologicamente e associadas automaticamente ao cliente correspondente.
+Critérios de Aceitação [detalhado]
+•	Tipos de Interações Registradas: O sistema deve permitir o registro de diferentes tipos de interações, incluindo:
+o	Chamadas Telefônicas: Com campos para data, hora, duração, resumo da conversa, e o nome do responsável pelo contato.
+o	e-mails: Com captura automática do conteúdo e anexo do e-mail, data e hora de envio/recebimento, e remetente/destinatário.
+o	Reuniões: Com campos para data, hora, local, participantes, e um resumo dos pontos discutidos.
+o	Outros: Deve haver a possibilidade de adicionar tipos de interações personalizadas, como mensagens de texto, redes sociais, etc.
+•	Associação Automática ao Cliente:
+o	Cada interação registrada deve ser automaticamente vinculada ao cliente correspondente no CRM, com base em identificadores como e-mail, número de telefone ou ID de cliente.
+o	Se a interação não puder ser associada automaticamente, o sistema deve permitir que o usuário faça a associação manualmente.
+•	Campos Obrigatórios e Opcionais:
+o	Cada tipo de interação deve ter campos obrigatórios (ex: data, tipo de interação, cliente) e campos opcionais (ex: resumo, anexo), conforme definido nas regras de negócio.
+o	O sistema deve validar o preenchimento dos campos obrigatórios antes de permitir o registro da interação.
+•	Visualização e Acesso ao Histórico:
+o	O sistema deve fornecer uma visualização cronológica do histórico de interações para cada cliente, exibindo todos os tipos de interações registradas.
+o	Deve ser possível filtrar as interações por data, tipo, ou usuário responsável.
+o	O histórico de interações deve ser acessível diretamente na página de detalhes do cliente, com opção para expandir ou colapsar detalhes.
+Fluxo de Trabalho
+1.	O usuário acessa a página do cliente no CRM;
+2.	Seleciona o tipo de interação que deseja registrar (chamada, e-mail, reunião, etc.);
+3.	Preenche os campos obrigatórios e, opcionalmente, os campos adicionais;
+4.	Associa a interação ao cliente (se não for feito automaticamente) e confirma o registro;
+5.	A nova interação é adicionada ao histórico do cliente, ficando disponível para consulta futura; e
+6.	O usuário pode editar ou excluir a interação, conforme necessário.
+Consulta de Histórico de Interações
+7.	O usuário acessa o histórico de interações na página do cliente.
+8.	Filtra e ordena as interações conforme necessidade.
+
+RF2: Definição de Lembretes Automáticos para Follow-ups
+O sistema deve permitir a criação de lembretes automáticos para follow-ups com clientes, permitindo que o usuário personalize as configurações, como data, hora, e mensagem do lembrete.
+Critérios de Aceitação
+•	Os lembretes devem permitir personalização de conteúdo e frequência;
+•	As notificações de lembrete devem ser enviadas por e-mail ou exibidas no CRM, conforme preferências do usuário; e
+•	O usuário deve poder personalizar o conteúdo dos lembretes.
+Fluxo de Trabalho
+•	O usuário define um follow-up durante ou após o registro de uma interação;
+•	Personaliza a data, hora e mensagem do lembrete; e
+•	O lembrete é armazenado e uma notificação será enviada na data e hora definidas.
+
+RF3: Geração de Relatórios de Progresso de Vendas 
+O sistema deve gerar relatórios automáticos e sob demanda sobre o progresso das vendas, estacando interações, status de negociação e próximas ações.
+O sistema deve possibilitar a personalização do conteúdo dos relatórios com base nas preferências do usuário.
+Critérios de Aceitação
+•	O sistema deve permitir a geração automática de relatórios periódicos e sob demanda;
+•	Os relatórios devem incluir informações sobre interações, status de negociação e próximas ações;
+•	Relatórios devem estar disponíveis em formato PDF;
+•	O usuário deve poder personalizar os parâmetros e a visualização dos relatórios; e
+•	O relatório deve incluir gráficos de progresso e indicadores de performance.
+Fluxo de Trabalho
+•	O usuário seleciona os parâmetros do relatório (período, tipo de interação, cliente);
+•	Escolhe entre gerar automaticamente ou sob demanda; e
+•	O relatório é gerado e pode ser visualizado ou exportado.
+
+RF4: Integração com Sistema de e-mail para Envio de Notificações
+A nova funcionalidade deve integrar-se ao sistema de e-mail existente para permitir o envio automático de notificações relacionadas a lembretes, relatórios de vendas, e outras interações com os clientes.
+Critérios de Aceitação
+•	Notificações de lembretes e relatórios devem ser enviadas por e-mail;
+•	A integração deve suportar múltiplos provedores de e-mail (Gmail, Outlook, etc.);
+•	As interações por e-mail devem ser automaticamente registradas no sistema CRM;
+•	O sistema deve enviar notificações automáticas para os e-mails cadastrados, com base em lembretes e relatórios gerados; e
+•	As notificações devem incluir opções de personalização de mensagem e destinatários.
+________________________________________
+3.	Requisitos Não Funcionais
+RNF 1: Portabilidade    
+•	Compatibilidade de Plataforma: O sistema deve ser compatível com os principais sistemas operacionais e navegadores usados pelos usuários, como Windows, macOS, Linux, Chrome, Firefox, Safari e Edge.
+•	Migração de Dados: Deve ser possível migrar dados de interações e lembretes de sistemas legados para o novo CRM sem perda de integridade ou conteúdo.
+Critérios de Aceitação
+Da Compatibilidade de Plataforma:
+•	Todos os principais recursos e funcionalidades do sistema devem ser testados em cada plataforma e navegador mencionados, garantindo que não ocorram erros de interface ou incompatibilidade de funções.
+Da Migração de Dados
+•	Durante o processo de migração de dados de interações e lembretes de sistemas legados, não deve haver perda de dados ou alteração na integridade dos mesmos.
+•	O processo de migração deve ser concluído com sucesso em 100% dos casos testados, incluindo a preservação da integridade dos dados, como timestamps, autores, e conteúdo dos lembretes e interações.
+•	Um relatório de migração deve ser gerado automaticamente, detalhando o status de todos os dados migrados e destacando qualquer erro ou inconsistência que tenha ocorrido durante o processo. Nenhum dado deve ser considerado migrado com sucesso se houver erro reportado.
+
+RNF 2: Desempenho e Performance
+O sistema deve ser capaz de processar grandes volumes de dados sem comprometer a performance.
+O sistema deve ser capaz de manejar e exibir o histórico de interações de até 10.000 registros por cliente sem atrasos perceptíveis.
+Critérios de Aceitação
+•	Capacidade de suportar até 10.000 registros de interações por cliente; e
+•	O sistema deve gerar relatórios em menos de 10 segundos.
+
+RNF 3: Usabilidade
+•	Interface Intuitiva: O sistema deve ter uma interface de usuário intuitiva, facilitando o registro de interações, definição de lembretes e geração de relatórios sem necessidade de treinamento extenso.
+•	Experiência do Usuário (UX): A navegação deve ser simplificada, com um fluxo de trabalho que minimize o número de cliques necessários para realizar tarefas comuns.
+•	Responsividade: A interface deve ser totalmente responsiva, adaptando-se a diferentes tamanhos de tela, incluindo dispositivos móveis e tablets, sem perda de funcionalidade ou usabilidade.
+•	Feedback Visual e Auditivo: O sistema deve fornecer feedback imediato (visual e/ou auditivo) para ações do usuário, como confirmação de registros, alertas de erro, ou sucesso nas operações.
+•	Curva de Aprendizado: O design da interface e dos fluxos de trabalho deve permitir que novos usuários se adaptem rapidamente, reduzindo a curva de aprendizado.
+•	Consistência com o Sistema Existente: Como se trata de uma nova funcionalidade em um sistema já existente, a interface e o fluxo de trabalho da nova funcionalidade devem seguir o Style Guide do sistema atual, garantindo uniformidade na experiência do usuário e evitando discrepâncias na usabilidade.
+Critérios de Aceitação
+•	A interface deve seguir as melhores práticas de UX/UI, com acessibilidade e consistência; e
+•	O sistema deve ser responsivo e acessível em dispositivos móveis.
+
+RNF 4: Armazenamento Seguro
+Todas as interações registradas no sistema devem ser armazenadas de maneira segura e estar facilmente acessíveis para consulta futura, com controles de acesso baseados em permissões.
+Critérios de Aceitação
+•	O sistema deve criptografar todas as interações armazenadas;
+•	O histórico de interações deve estar acessível para usuários autorizados;
+•	O sistema deve criptografar dados em repouso e em trânsito;
+•	O sistema deve fornecer logs de auditoria para rastrear acessos e alterações nos registros de interação; e
+•	O sistema deve usar autenticação multifator para proteger o acesso de usuários, especialmente para ações sensíveis como exclusão de interações.
+________________________________________
+4.	Especificação de Integrações e Aspectos de Segurança
+4.1.	Sobre as integrações
+Integração com e-mail e outras Ferramentas:
+•	Descrição da integração com o sistema de e-mail, incluindo o fluxo de envio de notificações;
+•	Tecnologias utilizadas (API de e-mail, protocolos suportados, etc.); e
+•	Identificação de possíveis integrações com sistemas de terceiros, como calendários e ferramentas de análise de dados.
+
+4.2.	Segurança e autenticação
+Para Criptografia:
+•	Descrição das práticas de criptografia utilizadas; e
+•	Tecnologias e padrões adotados (AES, TLS, etc.).
+Para Autenticação:
+•	Descrição dos métodos de autenticação e autorização; e
+•	Fluxo de autenticação detalhado, incluindo a configuração de autenticação de dois fatores.
+________________________________________
+5.	Exclusões do Escopo
+Funcionalidades Não Previstas
+•	Cadastro de Produtos: O escopo não inclui a funcionalidade de cadastro ou gestão de produtos.
+•	Funcionalidade de Chat: Não será desenvolvida uma funcionalidade de chat interno para comunicação entre usuários.
+•	Transcrição Automática de Chamadas: O sistema não incluirá funcionalidades de transcrição automática de chamadas telefônicas.
+•	Análise de Sentimento: O registro de interações não contará com análise automatizada de sentimento ou tom de voz nas interações registrada
+
+EXEMPLO DE Descrição dos Fluxos [visual, via modelagem de processo]
+•	Do Registro de Interações
+o	Descrição passo a passo de como o usuário registra uma interação no CRM.
+	Eu utilizo representação via Fluxograma e/ou BPMN mostrando o processo desde a entrada de dados até o armazenamento.
+•	Da Geração de Relatórios
+o	Descrição passo a passo de como os relatórios são gerados e customizados.
+	Eu utilizo representação via Fluxograma e/ou BPMN mostrando a coleta de dados e a geração do relatório.
+Exemplo descritivo: 
+•	O usuário acessa a seção de relatórios do CRM.
+•	Escolhe entre gerar um relatório automático com parâmetros pré-definidos ou criar um relatório sob demanda.
+•	Define os parâmetros de personalização (período, clientes específicos, status da negociação, etc.).
+•	Seleciona o formato de exportação desejado (PDF, Excel) e, se aplicável, os destinatários do e-mail.
+•	O sistema gera o relatório com base nos parâmetros definidos e o disponibiliza para visualização e download.
+•	O usuário pode optar por salvar as configurações para relatórios futuros.
+________________________________________
+6.	Dúvidas e Considerações
+6.1.	Dúvidas
+•	Como serão tratadas as interações registradas por múltiplos usuários para o mesmo cliente?
+•	Há necessidade de integração com ferramentas de CRM existentes, ou será um módulo autônomo?
+
+6.2.	Considerações Finais
+•	O desenvolvimento deve seguir metodologias ágeis, com entregas incrementais para validação contínua das funcionalidades; e
+•	A documentação deve ser revisada e atualizada conforme o andamento do projeto, garantindo que o escopo permaneça alinhado com as expectativas do cliente.
